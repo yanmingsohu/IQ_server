@@ -1,0 +1,21 @@
+sex	性别
+age	年龄
+city	城市
+name	昵称
+pass	密码
+
+tname	真实姓名
+email	邮箱
+country	国家
+province 省份
+
+signing	签名
+explain 个人说明
+
+belong	生肖
+blood	血型
+brithm	生日/月
+brithd	生日/日
+horo	星座
+
+icon	头像

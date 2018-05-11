@@ -1,0 +1,23 @@
+iq2008_dbase	数据库名字
+
+
+User_table	用户表
+id		主键,用户id
+password	密码
+name		用户名（唯一）
+
+Friend_table	好友表
+fid		主键
+uid		用户表外建
+list		好友列表 格式：(:100:1001:2001:) 以':'分割,首尾都有':'
+
+
+Info_table	信息表
+uid		用户表外建
+info		个人信息 格式: (nick=月亮\nse=男\n)每行以'\n'分割
+
+
+offline_msg	离线消息表
+sid		发送方id
+rid		接受方id
+msg		消息
